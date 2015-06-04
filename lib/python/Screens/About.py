@@ -225,8 +225,8 @@ class SystemMemoryInfo(Screen):
 		Screen.__init__(self, session)
 		Screen.setTitle(self, _("Memory Information"))
 		self.skinName = ["SystemMemoryInfo", "About"]
-		self["lab1"] = StaticText(_("Virtuosso Image Xtreme"))
-		self["lab2"] = StaticText(_("By Team ViX"))
+		self["lab1"] = StaticText(_("Atemio4You Image OPGLS"))
+		self["lab2"] = StaticText(_("By SODO"))
 		self["AboutScrollLabel"] = ScrollLabel()
 
 		self["actions"] = ActionMap(["SetupActions", "ColorActions"],
